@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/LANDING PAGE IPHONE/images/logo.png" type="image/x-icon">
+    <title>Apple</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#"><img src="/images/logo.png" alt="logo iphone" class="img"></a>
+            <ul>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">Ipad</a></li>
+                <li><a href="#" class="iphone">Iphone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Airpods</a></li>
+                <li><a href="#">Só na Apple</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="/images/iphone13.png" alt="Iphone 13">
+                <h3>Seu novo superpoder</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> A nihil repellendus sequi odio aliquam, facilis unde excepturi debitis, repudiandae consequatur possimus rem illo cupiditate deleniti doloribus laborum. Porro, totam cupiditate.</p>
+                <h6>A partir de R$ 6.599</h6>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                   <h5> Escolha sua cor favorita </h5>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="imgSlider('/images/green.png')"></span>
+                    <span id="pink " onclick="imgSlider('/images/pink.png')"></span>
+                    <span id="blue" onclick="imgSlider('/images/blue.png')"></span>
+                    <span id="black" onclick="imgSlider('/images/black.png')"></span>
+                    <span id="white" onclick="imgSlider('/images/white.png')"></span>
+                    <span id="red" onclick="imgSlider('/red.png')"></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="/images/green.png" alt="Imagem do Iphone" id="iphone">
+
+            </div>
+        </section>
+    </main>
+</body>
+<script type="text/javascript">
+    function imgSlider(e){
+        document.querySelector('#phone').src = e;
+    }
+</script>
+</html>   
